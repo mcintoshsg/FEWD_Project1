@@ -29,7 +29,7 @@ You'll also practice using GitHub, an important tool used by millions of develop
 [X] **Feel free to expand on this project, by adding an additional page or two, adding more images and customizing the CSS.**
 ***
 
-[] **Make sure to check your code is valid by running it through an HTML and CSS validator.**
+[X] **Make sure to check your code is valid by running it through an HTML and CSS validator.**
  - Links to the validators can be found in the Project Resources. This will help you spot any errors that might be in your code.
  - There are a few exceptions that you don’t need to fix:
 - Don’t worry about any warnings, we just need you to check any errors that might be there.
@@ -38,7 +38,7 @@ You'll also practice using GitHub, an important tool used by millions of develop
 ***
 ## Extra Credit
 
-[] **Create additional pages to expand on this online profile.**
+[X] **Create additional pages to expand on this online profile.**
 ***
 [X] **Edit the styling of the profile photo’s CSS properties. Pick at least one of the following properties to change:
 - border
@@ -46,7 +46,7 @@ You'll also practice using GitHub, an important tool used by millions of develop
 - transition
 ***
 
-[] **Add more photos and imagery to the page.**
+[X] **Add more photos and imagery to the page.**
 ***
 [X] **Add more text to the page such as a list of your hobbies.**
 ***

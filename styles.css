@@ -9,19 +9,28 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #646262;
-  background: #F9FCFC;
+  background: #bcbabe
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #646262;
+  color: #222326;
 }
+
 a:hover {
-  color: #6633ff;
+  color:#2BAA8F
 }
 
+.project-headings {
+  text-decoration: none;
+  color:#222326;
+}
 
+.project-headings:hover {
+  text-decoration: none;
+  color: #2BAA8F
+}
 /* Section Styles */
 
 .main-nav {
@@ -56,17 +65,25 @@ a:hover {
   color: grey
   
 }
-.nav .avatar-image {
-  width: 50px;
-  height: 50px;
+.avatar-image {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 2px solid white;
   transition: all .5s;
 }
 
-header {
+header.index-page {
   text-align: center;
-  background: url('images/sligachan.jpg') no-repeat top center ;
+  background: url('images/tech2.png') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+header.profile-page {
+  text-align: center;
+  background: url('images/tech.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,14 +93,6 @@ header {
   line-height: 1.5;
 }
 
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
 
 .tag {
   color: white;
@@ -91,10 +100,8 @@ header .profile-image {
   display: table;
   margin: 10px auto; 
 } 
-.location {
-  background-color: #222;
-  color: yellow;
-}
+
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -104,9 +111,10 @@ header .profile-image {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .2s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .card:hover {
-  border-color: #FCF9F9;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 p {
@@ -122,14 +130,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #1995ad;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #a1d6e2;
 }
 
 footer {
@@ -178,6 +186,41 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+/* Card for the portfolio c/o Janki Ghandi tutorial */
+
+.grid {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+} 
+.grid > article {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+ .grid > article img {
+  max-width: 100%;
+  height: auto;
+} 
+
+.text {
+  padding: 0 20px 20px;
+}
+.text > button {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
+.grid > article:nth-child(1) {
+  grid-row: span 2;
+}
+
+
+   /* object-fit: cover;  */
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
